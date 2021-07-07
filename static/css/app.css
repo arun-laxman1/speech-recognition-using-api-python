@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto';
+}
+
+select {
+    background-color: white;
+    border: 2px solid black;
+    padding: 0 1em 0 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.fa:hover{
+    color: darkblue;
+}
+
+button:disabled,
+button[disabled]{
+    opacity: 0.1;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {opacity: 1}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8">
+        <title>Speech to Text Convertor</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../static/css/app.css">
+  </head>
+    
+  <body>
+        <center>
+            <h1>Speech to Text Convertor</h1>
+
+            <div id="controls">
+                 <button class="btn" id="recordButton"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                 <button class="btn" id="stopButton" disabled><i class="fa fa-stop"></i></button>
+            </div>
+
+            <h2>Choose a Language:</h2>
+
+            <select id="language">
+                  <option value="en-US">English</option>
+                  <option value="ta-IN">Tamil</option>
+                  <option value="te-IN">Telugu</option>
+                  <option value="ml-IN">Malayalam</option>
+                  <option value="kn-IN">Kannada</option>
+                  <option value="ja-JP">Japanese</option>
+                  <option value="de-GE">German</option>
+                  <option value="es-ES">Spanish</option>
+                  <option value="fr-FR">French</option>
+                  <option value="hi-IN">Hindi</option>
+            </select> 
+            <br><br><br>
+            
+            <div id="recording"></div>
+            <br><br>
+            
+            <div id="up"></div>
+
+            <h1 id="result"></h1>
+
+        </center>
+      
+        <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+        <script src="/static/js/app.js"></script>
+      
+    </body>
+    
+</html>
