@@ -1,7 +1,6 @@
-# speech-recognition-using-api-python
-Speech To Text Convertor in Python 
+# Speech To Text Convertor in Python 
 
-Frontend used is HTML, CSS and JavaScript. Backend used is Flask Framework. Google's speech to text API.
+Frontend used is HTML, CSS and JavaScript. Backend used is Flask Framework. Google's speech to text API is used to convert speech to text.
 
 This records your voice and allows you to choose any language for conversion. Total of 10 languages supported.
 
